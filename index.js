@@ -4,6 +4,6 @@ var React = require('react-native');
 
 var { NativeModules } = React;
 
-var itppayModule = NativeModules.itppayLibrary;
+var itp = NativeModules.ITPPayModule;
 
-module.exports = itppayModule;
+module.exports = itp;
